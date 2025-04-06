@@ -1,19 +1,17 @@
 [
     {
-        "title": "TrueFeedback",
-        "description": "TrueFeedback is a platform where users can provide anonymous feedback to individuals or organizations without revealing their identity",
+        "title": "Typespeed-Tester",
+        "description": "Typespeed-Tester is a platform where users can check how fast you can type using a keyboard",
         "type": "Personal Projects",
         "imageUrl": "/assets/img/true.png",
-        "githubUrl": "https://github.com/vineet-op/Truefeedback",
-        "demoUrl": "https://truefeedback.vercel.app/",
+        "githubUrl": "https://github.com/Saksham-0707/typing-test",
+        "demoUrl": "https://typing-test-theta-red.vercel.app/",
         "skills": [
-            "NEXT.JS",
+            "REACT.JS",
             "TYPESCRIPT",
             "TAILWIND",
-            "MONGODB",
-            "SHADCN",
             "REACT-HOOK-FORMS",
-            "ZOD"
+            "VERCEL"
         ]
     },
     {
