@@ -1,13 +1,12 @@
 "use client"
 
-import { ExperienceCard } from "@/components/experience-card";
 import { ProjectCard3d } from "@/components/project-card-3d";
 import { Reveal } from "@/components/reveal";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
 import { TracingBeam } from "@/components/ui/tracing-beam";
-import experiences from "@/lib/experiences.json";
+
 
 import mee3 from "@/lib/img/image.png"
 
@@ -364,42 +363,6 @@ export default function Home() {
                     </Reveal>
                 </div>
             </section>
-            <Separator />
-
-
-            {/* Experience */}
-            <section id="experiences" className="flex flex-col items-start justify-start gap-4 sm:py-32 sm:mx-24 md:mx-32 lg:mx-64 xl:mx-96 py-16">
-                <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl text-center w-full">
-                    Where I've Worked
-                </h2>
-                <div className="flex flex-col gap-4 md:hidden">
-                    {experiences.map((experience) => (
-                        <ExperienceCard
-                            key={experience.title}
-                            title={experience.title}
-                            company={experience.company}
-                            date={experience.date}
-                            description={experience.description}
-                            skills={experience.skills}
-                        />
-                    ))}
-                </div>
-                <TracingBeam className="px-6 hidden md:flex md:flex-col">
-                    <div className="flex flex-col gap-4">
-                        {experiences.map((experience) => (
-                            <ExperienceCard
-                                key={experience.title}
-                                title={experience.title}
-                                company={experience.company}
-                                date={experience.date}
-                                description={experience.description}
-                                skills={experience.skills}
-                            />
-                        ))}
-                    </div>
-                </TracingBeam>
-            </section>
-            <Separator />
 
 
             {/* Contact */}

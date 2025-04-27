@@ -15,21 +15,23 @@
         ]
     },
     {
-        "title": "NEXT-COMMERCE",
-        "description": "Developed a Full-Stack E-commerce platform with the help of NextJS, Typescript, ShadCn UI and Sanity.io. An CMS where we can store our products and integrated Stripe for managing Payment gateways",
+        "title": "QUIZ APP",
+        "description": "Developed a Full-Stack Quiz App using React and TypeScript, featuring multiple quiz categories, real-time scoring, and a clean, responsive UI. Integrated dynamic question loading and a timer functionality.",
         "type": "Personal Projects",
-        "imageUrl": "/assets/img/Shop.png",
-        "githubUrl": "https://github.com/vineet-op/Next_Commerce",
-        "demoUrl": "https://next-commerce-pro1.vercel.app/",
+        "imageUrl": "/assets/img/quizz.png",
+        "githubUrl": "https://github.com/Saksham-0707/quizz-app",
+        "demoUrl": "https://quizz-app-virid-omega.vercel.app/",
         "skills": [
-            "NEXT.JS",
-            "TYPESCRIPT",
-            "SHADCN",
-            "SANITY.IO",
-            "STRIPE",
-            "VERCEL"
+          "REACT.JS",
+          "TYPESCRIPT",
+          "CSS",
+          "Tailwind CSS",
+          "REACT-HOOK-FORMS",
+          "Node.js",
+          "ShadCN",
+          "VERCEL"
         ]
-    },
+      },
     {
         "title": "VIVID BLOGS",
         "description": "Vivid Blogs is an Blog Application, were users can compose share their thoughts",
